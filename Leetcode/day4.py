@@ -66,20 +66,20 @@
 
 
 
-a=[1,2,3,4,5]
-b=[1,2,6,4,5]
-res=[]
-for i in a:
-    if i not in res:
-        res.append(i) 
-for i in b:
-    if i not in res:
-        res.append(i)   
-print(res)
+# a=[1,2,3,4,5]
+# b=[1,2,6,4,5]
+# res=[]
+# for i in a:
+#     if i not in res:
+#         res.append(i) 
+# for i in b:
+#     if i not in res:
+#         res.append(i)   
+# print(res)
 
-l1=[1,2,3,4,5]
-l2=[1,2,6,4,5]
+# l1=[1,2,3,4,5]
+# l2=[1,2,6,4,5]
 
-m=l1+l2
-m.sort()
-print(m)
+# m=l1+l2
+# m.sort()
+# print(m)

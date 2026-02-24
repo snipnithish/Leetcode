@@ -88,9 +88,9 @@
 # sl.show_result()
 # s2.show_result()
 
-celcius=[10,20,30,40,50]
-fahrenheit=[]
-for c in celcius:
-    f=(c*9/5)+32
-    fahrenheit.append(f)
-print(fahrenheit)
+# celcius=[10,20,30,40,50]
+# fahrenheit=[]
+# for c in celcius:
+#     f=(c*9/5)+32
+#     fahrenheit.append(f)
+# print(fahrenheit)
