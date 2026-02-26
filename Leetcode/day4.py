@@ -83,3 +83,33 @@
 # m=l1+l2
 # m.sort()
 # print(m)
+# num=int(input("Enter a number: "))
+# if num <= 1:
+#     print("Not a perfect number")
+# total = 0
+# for i in range(1, num):
+#     if num % i == 0:
+#         total += i
+# if total == num:
+#     print("Perfect number")
+# else:
+#     print("Not a perfect number")
+num = int(input("Enter a number: "))
+
+if num <= 1:
+    print("not a perfect number")
+else:
+    total = 1
+    i = 2
+
+    while i * i <= num:
+        if num % i == 0:
+            total += i
+            if i != num // i:
+                total += num // i
+        i += 1   # must be outside if
+
+    if total == num:
+        print("perfect number")
+    else:
+        print("not a perfect number")
